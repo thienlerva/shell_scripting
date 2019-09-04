@@ -1,3 +1,9 @@
+# touch myscript.sh
+# code .
+# chmod +x myscript.sh -> execute, change mode
+# ./myscript.sh -> to run file
+# which/bash
+
 #! /bin/bash
 
 # ECHO COMMAND
