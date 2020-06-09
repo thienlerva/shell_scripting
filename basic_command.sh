@@ -35,3 +35,16 @@ df -> view available device
 sudo apt-get install filemozilla
 sudo apt-get remove filemozilla
 sudo apt-get update
+gedit file.name
+hostnamectl   //check RHEL version
+vim ~/.bashrc
+ccache -c  // clear cache
+ls -1 | wc -l   // count files in dir
+kill firefox
+pidof firefox
+kill id
+or kill $(pidof firefox)
+init 6   // shut down
+ln -s. // set soft link
+dv -sh Documents/   // check folder size
+grep -rni “dry bulk cargo” *   // search file In dir
