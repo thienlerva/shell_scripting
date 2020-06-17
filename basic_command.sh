@@ -12,7 +12,15 @@ cd ~ go home
 cd ~/dir1
 clear or ctr + l
 history
+cat file1.txt
+head file1.txt
+tail file1.txt
 chmod +x myscript.sh
+r(4), w(2), x(1)
+7 = r + w + x
+6 = r + w
+5 = 4 + x
+chmod 765 file.txt  (owner - group - user)
 touch file1.txt -> create file
 nano file1.txt or code . or code file1.txt
 cat > file1.txt // to write a text from terminal to file (override old text). Enter -> Ctr+C
@@ -64,3 +72,23 @@ grep -rni “dry bulk cargo” *   // search file In dir
 shutdown -r  // to shutdown
 dd // create image file
 chroot // create sandbox
+find -iname fil1.txt
+find . -name file1.*
+find ./ ""
+find -type d -name puttygen  // search all directory for a particular file
+find ./ -type f -iname ask.php  // find php files using name
+find / -perm 777 -name test.php
+find / -perm 644
+find / -size -20M // look for file less than 20MB
+find / -size +1G
+find / -size 0c // empty files in server
+echo $GIT_SSL_KEY
+yum install vlc
+yum remove vlc
+yum update ftpd
+yum list all
+yum list installed
+yum search samba
+VM Box
+root
+toor
