@@ -69,6 +69,10 @@ init 6   // shut down
 ln -s origin_file_dir destination_file_dir // set soft link
 du -sh Documents/   // check folder size
 grep -rni “dry bulk cargo” *   // search file In dir
+grep repo/src -rnwi -e "hideuserlogin"
+grep /documents -rnwi -e "something"
+place search.sh under a directory
+./search.sh "findsomething"    // case sensitive
 shutdown -r  // to shutdown
 dd // create image file
 chroot // create sandbox
