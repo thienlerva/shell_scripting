@@ -1,8 +1,10 @@
 # BASIC COMMANDS
 pwd : list current dir
+vim or cat ~/.bashrc
 ls
 ls -a
 ls -l
+ls -lah
 mkdir dir1
 cd dir1
 cd .. go back 1 level
@@ -69,6 +71,7 @@ init 6   // shut down
 ln -s origin_file_dir destination_file_dir // set soft link
 du -sh Documents/   // check folder size
 df -h --total   // Check harddrive size
+df -h /usr  
 grep -rni “dry bulk cargo” *   // search file In dir
 grep repo/src -rnwi -e "hideuserlogin"
 grep /documents -rnwi -e "something"
