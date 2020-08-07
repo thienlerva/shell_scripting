@@ -4,6 +4,8 @@ git branch -m newname // change branch name
 git branch -d branchname // delete branch
 git checkout <filename>  // revert a file 
 git merge origin develop  // merge develop into developer's branch
+git mergetool  // resolve merge conflict
+git mergetool --tool-help
 git stash
 git stash list
 git stash apply
