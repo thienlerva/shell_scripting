@@ -45,6 +45,7 @@ iwconfig
 ping google.com
 ctr+c
 netstat // View statistic, active network connection
+netstat -a | grep 61616
 nslookup google.com  // lookup ip and reverse
 dig
 uname -a -> view system info
@@ -80,6 +81,15 @@ place search.sh under a directory
 shutdown -r  // to shutdown
 dd // create image file
 chroot // create sandbox
+find ~ or find $HOME
+find .  <- find under current directory
+-iname : case insensitive
+-type d  : find directory
+-type f  : find file
+-print
+-ls
+find / -type f -iname "phthon.*"
+find / -type f -iname "?ython.*"
 find -iname fil1.txt
 find . -name file1.*
 find ./ ""
@@ -90,6 +100,8 @@ find / -perm 644
 find / -size -20M // look for file less than 20MB
 find / -size +1G
 find / -size 0c // empty files in server
+locate -b '\dir1'
+locate 'test.txt'
 echo $GIT_SSL_KEY
 yum install vlc
 yum remove vlc
