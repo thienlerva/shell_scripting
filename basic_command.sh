@@ -112,3 +112,8 @@ yum search samba
 VM Box
 root
 toor
+
+// open file browser in the current directory
+gio open .
+xdg-open .
+nautilus .
