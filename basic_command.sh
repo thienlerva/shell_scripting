@@ -73,8 +73,9 @@ ln -s origin_file_dir destination_file_dir // set soft link
 du -sh Documents/   // check folder size
 df -h --total   // Check harddrive size
 df -h /usr  
+grep ~/Documents/blah -rnwie something   // In Macbook
 grep -rni “dry bulk cargo” *   // search file In dir
-grep repo/src -rnwi -e "hideuserlogin"   // e for text search, "" is optional
+grep repo/src -rnwi -e "hideuserlogin"   // e for text search, dir and "" is optional
 grep /documents -rnwi -e "something"
 place search.sh under a directory
 ./search.sh "findsomething"    // case sensitive
