@@ -76,7 +76,7 @@ df -h /usr
 grep <option> <text> filename
 ls -s ~/Documents/ | grep -i filename   // search for file in a directory
 ls -s | grep -i ^d   // search for directory only
-grep ~/Documents/blah -rnwi something   // In Macbook
+grep ~/Documents/blah -rnwie something *   // In Macbook
 grep -rni “dry bulk cargo” *   // search text in all files in a directory
 grep repo/src -rnwi hideuserlogin   // dir and "" is optional
 grep /documents -rnwn -e something
