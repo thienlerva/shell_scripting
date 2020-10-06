@@ -2,6 +2,7 @@ git pull origin branch or git checkout KAMPS-711_user_info
 git checkout -b <abc>
 git branch -m newname // change branch name 
 git branch -d branchname // delete branch
+git branch -a | grep -i OIG-7778
 git checkout <filename>  // revert a file 
 git merge origin develop  // merge develop into developer branch
 git mergetool  // resolve merge conflict
