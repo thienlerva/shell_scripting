@@ -122,3 +122,6 @@ toor
 gio open .
 xdg-open .
 nautilus .
+
+// Check sha256sum
+sha256sum file
