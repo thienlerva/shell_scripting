@@ -29,6 +29,9 @@ cat > file1.txt // to write a text from terminal to file (override old text). En
 cat >> file2.txt // append to text to tile
 cat file1.txt -> view content
 less file1.txt -> view entire file
+cat -n file.txt  // view content with line number
+nl -s a file.txt   //  same cat -n file.txt
+nl -s "." file.txt  // show with 1.
 q to quit
 mv file1.txt file2.txt -> to rename file
 cp file2.txt file1.txt -> copy and keep original file
