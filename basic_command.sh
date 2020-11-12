@@ -47,9 +47,14 @@ ifconfig eho0
 iwconfig
 ping google.com
 ctr+c
+
 netstat // View statistic, active network connection
 netstat -a | grep 61616
 nslookup google.com  // lookup ip and reverse
+
+// Search open process
+ps aux | grep tomcat
+
 dig
 uname -a -> view system info
 blkid -> view hadrdrive
@@ -111,6 +116,10 @@ find / -size 0c // empty files in server
 locate -b '\dir1'
 locate 'test.txt'
 echo $GIT_SSL_KEY
+
+// super user
+sudo su or sudo -i
+su -ansadmin
 yum install vlc
 yum remove vlc
 yum update ftpd
