@@ -123,6 +123,7 @@ su -ansadmin
 yum install vlc
 yum remove vlc
 yum update ftpd
+sudo yum update google-chrome-stable
 yum list all
 yum list installed
 yum search samba
