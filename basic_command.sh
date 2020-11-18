@@ -72,6 +72,7 @@ timedatectl set-time [HH:MM:SS]
 vim ~/.bashrc
 ccache -c  // clear cache
 ls -1 | wc -l   // count files in dir
+find <path> -type f | wc -l  // count files in specified directory
 kill firefox
 pidof firefox
 kill id
