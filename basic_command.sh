@@ -84,6 +84,7 @@ ln -s origin_file_dir destination_file_dir // set soft link
 du -sh Documents/   // check folder size
 df -h --total   // Check harddrive size
 df -h /usr  
+du -h --max-depth=1 -x /usr    // show the size of directory
 grep <option> <text> filename
 ls -s ~/Documents/ | grep -i filename   // search for file in a directory
 ls -s | grep -i ^d   // search for directory only
