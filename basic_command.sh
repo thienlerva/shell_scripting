@@ -18,6 +18,8 @@ cat file1.txt
 head file1.txt
 tail file1.txt
 chmod +x myscript.sh
+chown anthony.lee service
+chown anthony.lee Student.java
 r(4), w(2), x(1)
 7 = r + w + x
 6 = r + w
