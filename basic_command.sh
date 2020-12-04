@@ -127,7 +127,8 @@ su -ansadmin
 yum install vlc
 yum remove vlc
 yum update ftpd
-sudo yum update google-chrome-stable
+sudo su, yum update google-chrome-stable
+yum install xerces-c xerces-c-devel
 yum list all
 yum list installed
 yum search samba
