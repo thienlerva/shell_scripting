@@ -5,6 +5,7 @@ git branch -d branchname // delete branch
 git branch -a | grep -i OIG-7778
 git checkout <filename>  // revert a file 
 git merge origin devel  // merge develop into developer branch, stay on current branch KAMPS-555
+git cherry-pick --edit <hash> <hash> same as merge but apply "only code changes" at a specific commit
 git mergetool  // resolve merge conflict
 git mergetool --tool-help
   // merge fail
