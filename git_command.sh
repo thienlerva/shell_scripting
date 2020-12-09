@@ -3,6 +3,7 @@ git checkout -b <abc>
 git branch -m newname // change branch name 
 git branch -d branchname // delete branch
 git branch -a | grep -i OIG-7778
+git checkout -  // checkout to previous branch
 git checkout <filename>  // revert a file 
 git checkout .  // revert all files
 git merge origin devel  // merge develop into developer branch, stay on current branch KAMPS-555
@@ -10,7 +11,9 @@ git cherry-pick --edit <hash> <hash> same as merge but apply "only code changes"
 git mergetool  // resolve merge conflict
 git mergetool --tool-help
   // merge fail
-git reset --hard HEAD~1 or HEAD~2 reset commit in the working tree after commit but before push.
+git reset HEAD <file> or . to unstage files before commit, opposite to git add
+git reset --soft HEAD~1  safer since change will not be discarded immediately
+git reset --hard HEAD~1 or HEAD~2 changes will be discrarded immediately, reset or unstages files or commit in the working tree after commit but before push.
 git stash
 git stash list
 git stash apply
@@ -27,3 +30,4 @@ git show <commit_hash>
 git show --name-only <commit_hash>
 git log origin/develop | grep "bugfix-854"
 git blame file.txt
+git log --oneline
