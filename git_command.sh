@@ -7,6 +7,7 @@ git checkout -  // checkout to previous branch
 git checkout <filename>  // revert a file 
 git checkout .  // revert all files
 git merge origin devel  // merge develop into developer branch, stay on current branch KAMPS-555
+if merge fail, git reset --hard HEAD~1
 git cherry-pick --edit <hash> <hash> same as merge but apply "only code changes" at a specific commit
 git mergetool  // resolve merge conflict
 git mergetool --tool-help
@@ -26,6 +27,7 @@ git checkout adfdgdggdf~1 text.txt  // Revert commit before 1
 git revert <commit_id> revert changes in the remote repo after push.
 After running revert if only previous commit, :wq to save the commit, and push.
 after running git revert, could have error: could not revert 2b1a940... second commit from master. Solve merge conflict and add, commit, push
+git revert --abort  // to abort
 git ls --author "Thien Le"
 gitk  //show changes
 git show <commit_hash>
@@ -33,3 +35,4 @@ git show --name-only <commit_hash>
 git log origin/develop | grep "bugfix-854"
 git blame file.txt
 git log --oneline
+git diff commitid commitid
