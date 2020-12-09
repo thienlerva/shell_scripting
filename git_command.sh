@@ -24,6 +24,8 @@ git checkout <commit_id> path/to/file.txt
 git checkout adfdgdggdf~1 text.txt  // Revert commit before 1
  -- Revert changes introduced by a specific commit
 git revert <commit_id> revert changes in the remote repo after push.
+After running revert if only previous commit, :wq to save the commit, and push.
+after running git revert, could have error: could not revert 2b1a940... second commit from master. Solve merge conflict and add, commit, push
 git ls --author "Thien Le"
 gitk  //show changes
 git show <commit_hash>
