@@ -143,3 +143,17 @@ nautilus .
 
 // Check sha256sum
 sha256sum file
+
+// spring boot app
+mvn spring-boot:run
+<build>
+		<plugins>
+			<plugin>
+				<groupId>org.springframework.boot</groupId>
+				<artifactId>spring-boot-maven-plugin</artifactId>
+			</plugin>
+		</plugins>
+		<finalName>spring-boot-aws-example</finalName>
+	</build>
+mvn clean install
+java -jar spring-boot-aws-example.jar
