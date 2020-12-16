@@ -157,3 +157,8 @@ mvn spring-boot:run
 	</build>
 mvn clean install
 java -jar spring-boot-aws-example.jar
+
+sudo /usr/local/bin/idea
+cd ~/netbeans-8.0.2/bin
+./netbeans
+ecl to start ecllipse
