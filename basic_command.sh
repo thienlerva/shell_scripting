@@ -124,6 +124,7 @@ echo $GIT_SSL_KEY
 
 // super user
 sudo su or sudo -i
+yum update  //update linux repos once a month
 su -ansadmin
 yum install vlc
 yum remove vlc
