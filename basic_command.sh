@@ -86,6 +86,9 @@ df -h --total   // Check harddrive size
 df -h /usr  
 du -h --max-depth=1 -x /usr    // show the size of directory
 du -h /opt
+cd /var/log
+rm -rf messages-
+cd /opt // rm unnecessary files
 grep <option> <text> filename
 ls -s ~/Documents/ | grep -i filename   // search for file in a directory
 ls -s | grep -i ^d   // search for directory only
