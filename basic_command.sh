@@ -25,6 +25,10 @@ r(4), w(2), x(1)
 6 = r + w
 5 = 4 + x
 chmod 765 file.txt  (owner - group - user)
+adduser <username>
+usermod -a -G sudo <username>  // add to root
+cksk -s /bin/bash <username>
+userdel -r -f <username>
 touch file1.txt -> create file
 nano file1.txt or code . or code file1.txt
 cat > file1.txt // to write a text from terminal to file (override old text). Enter for next line, Enter -> Ctr+C to save.
