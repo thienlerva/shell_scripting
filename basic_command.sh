@@ -101,9 +101,9 @@ grep <option> <text> filename
 ls -s ~/Documents/ | grep -i filename   // search for file in a directory
 ls -s | grep -i ^d   // search for directory only
 grep -rwni servertimezone *
-grep ~/Documents -rnwi something *   // In Macbook take a long time
+grep ~/Documents/Sonarqueb -rni something *   // In Macbook has to use * to search, ~/Documents take very long times
 grep -rni “dry bulk cargo” *   // search text in all files in a directory
-grep repo/src -rnwi hideuserlogin   // dir and "" is optional
+grep repo/src -rnwi hideuserlogin   // dir and "" is optional, but "" is used for string with space
 grep /documents -rnwn -e something
 place search.sh under a directory
 ./search.sh "findsomething"    // case sensitive
