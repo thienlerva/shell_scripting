@@ -31,7 +31,7 @@ after running git revert, could have error: could not revert 2b1a940... second c
 git revert --abort  // to abort
 git ls --author "Thien Le"
 gitk  //show changes
-git show <commit_hash>
+git show <commit_hash> // show changes at a specific commit
 git show --name-only <commit_hash>
 git log origin/develop | grep "bugfix-854"
 git blame file.txt
