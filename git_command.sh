@@ -32,7 +32,7 @@ git revert --abort  // to abort
 git ls --author "Thien Le"
 gitk  //show changes
 git show <commit_hash> // show changes at a specific commit
-git show --name-only <commit_hash>
+git show --name-only <commit_hash>  // show only file changes
 git log origin/develop | grep "bugfix-854"
 git blame file.txt
 git log --oneline
