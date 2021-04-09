@@ -9,6 +9,7 @@ git checkout .  // revert all files
 git merge origin devel  // merge develop into developer branch, stay on current branch KAMPS-555
 if merge fail, git reset --hard HEAD~1
 git cherry-pick --edit <hash> <hash> same as merge but apply "only code changes" at a specific commit
+git cherry-pick --abort
 git mergetool  // resolve merge conflict
 git mergetool --tool-help
   // merge fail
