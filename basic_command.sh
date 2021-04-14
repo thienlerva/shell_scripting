@@ -149,6 +149,8 @@ VM Box
 root
 toor
 
+sudo tar -xzf file.gz -C /opt   //unzip tar file
+
 // open file browser in the current directory
 gio open .
 xdg-open .
