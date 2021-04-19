@@ -89,7 +89,7 @@ du -sh Documents/   // check folder size
 df -h --total   // Check harddrive size
 df -h /usr  
 du -h --max-depth=1 -x /usr    // show the size of directory
-cd /home/.../.cache
+cd /home/th/.cache
 du -h --max-depth=1
 rm -rf google-chrome
 rm -rf netbeans
