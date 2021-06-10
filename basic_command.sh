@@ -177,3 +177,5 @@ sudo /usr/local/bin/idea
 cd ~/netbeans-8.0.2/bin
 ./netbeans
 ecl to start ecllipse
+cd ~/VSCode-linux/bin
+./code
