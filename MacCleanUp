@@ -1,5 +1,5 @@
 canva custom size: 1920 - 1080
-cd /Users/myname/Movies/iMovie/iMovie Library imovielibrary
+cd /Users/myname/Movies/iMovie/iMovie Library.imovielibrary
 rm -rf Moviename
 rm --rf _Trash
 Clean up Other directory
