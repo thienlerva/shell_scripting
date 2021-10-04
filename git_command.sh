@@ -12,6 +12,7 @@ if merge fail, git reset --hard HEAD~1  (already merge)
 git cherry-pick --edit <hash> <hash> same as merge but apply "only code changes" at a specific commit
 fix merge conflict
 git cherry-pick --continue (success)
+i to insert message, esc to escape, iw to save
 git cherry-pick --abort (fail)
 git mergetool  // resolve merge conflict
 git mergetool --tool-help
