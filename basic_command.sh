@@ -138,7 +138,7 @@ sudo su or sudo -i
 yum update  //update linux repos once a month
 if PackageKit holding yum lock
 ps -ef | grep 1234
-kill -9 1234 or pkill PackageKit
+sudo su kill -9 1234 or pkill PackageKit
 Another way is to disable refresh-packagekit yum plug-in by editing 
 refresh-packagekit configuration file /etc/yum/pluginconf.d/refresh-packagekit.conf 
 enabled=0
