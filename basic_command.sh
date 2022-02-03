@@ -110,6 +110,7 @@ place search.sh under a directory
 shutdown -r  // to shutdown
 dd // create image file
 chroot // create sandbox
+---find to find files
 find ~ or find $HOME
 find .  <- find under current directory
 -iname : case insensitive
@@ -117,6 +118,7 @@ find .  <- find under current directory
 -type f  : find file
 -print
 -ls
+ find . -print | grep -i login
 find / -type f -iname "phthon.*"
 find / -type f -iname "?ython.*"
 find -iname fil1.txt
