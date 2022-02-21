@@ -40,11 +40,12 @@ nl -s a file.txt   //  same cat -n file.txt
 nl -s "." file.txt  // show with 1.
 q to quit
 mv file1.txt file2.txt -> to rename file
+cp -rf dir1/ dir2/  // force copy
 cp file2.txt file1.txt -> copy and keep original file
 cp file1.txt ~/dir2/file1.txt -> copy to different dir
 rm file1.txt -> to remove file
 rmdir dir2 -> remove dir
-rm -R dir2 -> force to remove dir with file inside
+rm -rf dir2 -> force to remove dir with file inside
 which mysql -> to view directory
 man ping or ping -h
 sudo
