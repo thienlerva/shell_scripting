@@ -85,6 +85,8 @@ pidof firefox
 kill id
 or kill $(pidof firefox)
 init 6   // shut down
+shutdown -r  // to shutdown
+shutdown -h now // Raspberry pi 
 ln -s origin_file_dir destination_file_dir // set soft link
 du -sh Documents/   // check folder size
 df -h --total   // Check harddrive size
@@ -108,7 +110,6 @@ grep repo/src -rnwi hideuserlogin   // dir and "" is optional, but "" is used fo
 grep /documents -rnwn -e something
 place search.sh under a directory
 ./search.sh "findsomething"    // case sensitive
-shutdown -r  // to shutdown
 dd // create image file
 chroot // create sandbox
 ---find to find files
